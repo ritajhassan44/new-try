@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|c:\\users\\admin\\source\\repos\\wpfapp1\\wpfapp1\\forgetpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\forgetpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\forgetpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\forgetpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\taskmangment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\taskmangment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\viewtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\taskmangment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\taskmangment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\viewtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Admin\\source\\repos\\WpfApp1\\wpfapp1\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C28BFA1B-9F71-4DFA-890D-BCC706D2339C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\Model1.Context.cs",
+              "RelativeToolTip": "WpfApp1\\Model1.Context.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywBwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:39:55.247Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ForgetPassword.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\ForgetPassword.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ForgetPassword.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\ForgetPassword.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ForgetPassword.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:04:07.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\LoginPage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:25:59.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgetPassword.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\ForgetPassword.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ForgetPassword.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\ForgetPassword.xaml",
+              "RelativeToolTip": "WpfApp1\\ForgetPassword.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T08:58:51.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\LoginPage.xaml",
+              "RelativeToolTip": "WpfApp1\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T11:18:55.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "taskmangment.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\taskmangment.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\taskmangment.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\taskmangment.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\taskmangment.xaml.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAA1wDYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:27:59.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "viewtask.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\viewtask.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\viewtask.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\viewtask.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\viewtask.xaml.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA1wEsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T12:03:47.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "taskmangment.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\taskmangment.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\taskmangment.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\taskmangment.xaml",
+              "RelativeToolTip": "WpfApp1\\taskmangment.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T11:27:16.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T11:17:53.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:17:52.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "viewtask.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\viewtask.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\viewtask.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\viewtask.xaml",
+              "RelativeToolTip": "WpfApp1\\viewtask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T11:26:35.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\Model1.edmx",
+              "RelativeDocumentMoniker": "WpfApp1\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WpfApp1\\WpfApp1\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "WpfApp1\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-20T11:36:34.02Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
