@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="tryBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="EmpTaskkk">
+          <Key>
+            <PropertyRef Name="TaskId" />
+          </Key>
+          <Property Name="TaskId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="80" Nullable="false" />
+          <Property Name="Descrription" Type="nvarchar" MaxLength="80" />
+          <Property Name="Statusemp" Type="nvarchar" MaxLength="80" />
+          <Property Name="dueDate" Type="date" />
+          <Property Name="UserId" Type="int" />
+        </EntityType>
+        <EntityType Name="newuserr">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="NameEmp" Type="nvarchar" MaxLength="80" Nullable="false" />
+          <Property Name="PasswordEmp" Type="nvarchar" MaxLength="80" Nullable="false" />
+          <Property Name="EmailEmp" Type="nvarchar" MaxLength="80" Nullable="false" />
+          <Property Name="RoleEmp" Type="nvarchar" MaxLength="80" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__EmpTaskkk__UserI__3A81B327">
+          <End Role="newuserr" Type="Self.newuserr" Multiplicity="0..1" />
+          <End Role="EmpTaskkk" Type="Self.EmpTaskkk" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="newuserr">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="EmpTaskkk">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="tryBModelStoreContainer">
+          <EntitySet Name="EmpTaskkk" EntityType="Self.EmpTaskkk" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="newuserr" EntityType="Self.newuserr" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__EmpTaskkk__UserI__3A81B327" Association="Self.FK__EmpTaskkk__UserI__3A81B327">
+            <End Role="newuserr" EntitySet="newuserr" />
+            <End Role="EmpTaskkk" EntitySet="EmpTaskkk" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="tryBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="EmpTaskkk">
+          <Key>
+            <PropertyRef Name="TaskId" />
+          </Key>
+          <Property Name="TaskId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Descrription" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="Statusemp" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="dueDate" Type="DateTime" Precision="0" />
+          <Property Name="UserId" Type="Int32" />
+          <NavigationProperty Name="newuserr" Relationship="Self.FK__EmpTaskkk__UserI__3A81B327" FromRole="EmpTaskkk" ToRole="newuserr" />
+        </EntityType>
+        <EntityType Name="newuserr">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="NameEmp" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PasswordEmp" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="EmailEmp" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="RoleEmp" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="EmpTaskkks" Relationship="Self.FK__EmpTaskkk__UserI__3A81B327" FromRole="newuserr" ToRole="EmpTaskkk" />
+        </EntityType>
+        <Association Name="FK__EmpTaskkk__UserI__3A81B327">
+          <End Role="newuserr" Type="Self.newuserr" Multiplicity="0..1" />
+          <End Role="EmpTaskkk" Type="Self.EmpTaskkk" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="newuserr">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="EmpTaskkk">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="tryBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="EmpTaskkks" EntityType="Self.EmpTaskkk" />
+          <EntitySet Name="newuserrs" EntityType="Self.newuserr" />
+          <AssociationSet Name="FK__EmpTaskkk__UserI__3A81B327" Association="Self.FK__EmpTaskkk__UserI__3A81B327">
+            <End Role="newuserr" EntitySet="newuserrs" />
+            <End Role="EmpTaskkk" EntitySet="EmpTaskkks" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="tryBModelStoreContainer" CdmEntityContainer="tryBEntities">
+          <EntitySetMapping Name="EmpTaskkks">
+            <EntityTypeMapping TypeName="tryBModel.EmpTaskkk">
+              <MappingFragment StoreEntitySet="EmpTaskkk">
+                <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Descrription" ColumnName="Descrription" />
+                <ScalarProperty Name="Statusemp" ColumnName="Statusemp" />
+                <ScalarProperty Name="dueDate" ColumnName="dueDate" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="newuserrs">
+            <EntityTypeMapping TypeName="tryBModel.newuserr">
+              <MappingFragment StoreEntitySet="newuserr">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="NameEmp" ColumnName="NameEmp" />
+                <ScalarProperty Name="PasswordEmp" ColumnName="PasswordEmp" />
+                <ScalarProperty Name="EmailEmp" ColumnName="EmailEmp" />
+                <ScalarProperty Name="RoleEmp" ColumnName="RoleEmp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

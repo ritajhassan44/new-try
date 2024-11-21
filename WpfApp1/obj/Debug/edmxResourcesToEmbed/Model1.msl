@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="tryBModelStoreContainer" CdmEntityContainer="tryBEntities">
+    <EntitySetMapping Name="EmpTaskkks">
+      <EntityTypeMapping TypeName="tryBModel.EmpTaskkk">
+        <MappingFragment StoreEntitySet="EmpTaskkk">
+          <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Descrription" ColumnName="Descrription" />
+          <ScalarProperty Name="Statusemp" ColumnName="Statusemp" />
+          <ScalarProperty Name="dueDate" ColumnName="dueDate" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="newuserrs">
+      <EntityTypeMapping TypeName="tryBModel.newuserr">
+        <MappingFragment StoreEntitySet="newuserr">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="NameEmp" ColumnName="NameEmp" />
+          <ScalarProperty Name="PasswordEmp" ColumnName="PasswordEmp" />
+          <ScalarProperty Name="EmailEmp" ColumnName="EmailEmp" />
+          <ScalarProperty Name="RoleEmp" ColumnName="RoleEmp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

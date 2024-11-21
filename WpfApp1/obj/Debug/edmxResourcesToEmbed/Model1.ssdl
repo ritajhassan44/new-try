@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tryBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EmpTaskkk">
+    <Key>
+      <PropertyRef Name="TaskId" />
+    </Key>
+    <Property Name="TaskId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="80" Nullable="false" />
+    <Property Name="Descrription" Type="nvarchar" MaxLength="80" />
+    <Property Name="Statusemp" Type="nvarchar" MaxLength="80" />
+    <Property Name="dueDate" Type="date" />
+    <Property Name="UserId" Type="int" />
+  </EntityType>
+  <EntityType Name="newuserr">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="NameEmp" Type="nvarchar" MaxLength="80" Nullable="false" />
+    <Property Name="PasswordEmp" Type="nvarchar" MaxLength="80" Nullable="false" />
+    <Property Name="EmailEmp" Type="nvarchar" MaxLength="80" Nullable="false" />
+    <Property Name="RoleEmp" Type="nvarchar" MaxLength="80" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__EmpTaskkk__UserI__3A81B327">
+    <End Role="newuserr" Type="Self.newuserr" Multiplicity="0..1" />
+    <End Role="EmpTaskkk" Type="Self.EmpTaskkk" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="newuserr">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="EmpTaskkk">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="tryBModelStoreContainer">
+    <EntitySet Name="EmpTaskkk" EntityType="Self.EmpTaskkk" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="newuserr" EntityType="Self.newuserr" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__EmpTaskkk__UserI__3A81B327" Association="Self.FK__EmpTaskkk__UserI__3A81B327">
+      <End Role="newuserr" EntitySet="newuserr" />
+      <End Role="EmpTaskkk" EntitySet="EmpTaskkk" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
